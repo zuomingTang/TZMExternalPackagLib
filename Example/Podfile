@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TZMExternalPackagLib_Example' do
+  pod 'TZMExternalPackagLib', :path => '../'
+
+  target 'TZMExternalPackagLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
