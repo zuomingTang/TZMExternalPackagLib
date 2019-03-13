@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZMExternalPackagLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'TZMExternalPackagLib.'
   
-  s.subspec 'Manager' do |si|
+  s.subspec 'iflyMSC' do |si|
       si.frameworks = 'AVFoundation', 'SystemConfiguration', 'Foundation', 'CoreTelephony', 'AudioToolbox', 'UIKit', 'CoreLocation', 'QuartzCore', 'CoreGraphics', 'Contacts', 'AddressBook'
       si.libraries = 'z','c++'
       si.vendored_frameworks = 'TZMExternalPackagLib/Classes/iflyMSC/iflyMSC.framework'
@@ -27,7 +27,7 @@ TODO: TZMExternalPackagLib
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zuomingTang' => '414933949@qq.com' }
-  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.1' }
+  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.2' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
