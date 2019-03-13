@@ -1,0 +1,16 @@
+PODS:
+  - TZMExternalPackagLib (0.1.0)
+
+DEPENDENCIES:
+  - TZMExternalPackagLib (from `../`)
+
+EXTERNAL SOURCES:
+  TZMExternalPackagLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TZMExternalPackagLib: 0bbec2ffb7830da9823448b7090d1bb65575e413
+
+PODFILE CHECKSUM: e5678f1b576618c3fa1ffc14b5f6f28b7725a09a
+
+COCOAPODS: 1.6.0.beta.2

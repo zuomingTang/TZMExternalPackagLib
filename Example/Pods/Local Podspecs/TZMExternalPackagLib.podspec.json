@@ -1,0 +1,22 @@
+{
+  "name": "TZMExternalPackagLib",
+  "version": "0.1.0",
+  "summary": "A short description of TZMExternalPackagLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zuomingTang/TZMExternalPackagLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zuomingTang": "414933949@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zuomingTang/TZMExternalPackagLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TZMExternalPackagLib/Classes/**/*"
+}

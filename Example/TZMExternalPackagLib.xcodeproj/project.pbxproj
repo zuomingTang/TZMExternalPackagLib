@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		183E888330E51598F0CBCF0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		39F323AAE54EA088F29B3F49 /* TZMExternalPackagLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TZMExternalPackagLib.podspec; path = ../TZMExternalPackagLib.podspec; sourceTree = "<group>"; };
+		183E888330E51598F0CBCF0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39F323AAE54EA088F29B3F49 /* TZMExternalPackagLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TZMExternalPackagLib.podspec; path = ../TZMExternalPackagLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4EA540C6A87A50914FD96393 /* Pods_TZMExternalPackagLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZMExternalPackagLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		506364C79F45F503A6FF7128 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZMExternalPackagLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TZMExternalPackagLib_Tests/Pods-TZMExternalPackagLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52F71D272ED8CEA6CAA03D44 /* Pods_TZMExternalPackagLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZMExternalPackagLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A8267751A8D004F78967DB9 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZMExternalPackagLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-TZMExternalPackagLib_Tests/Pods-TZMExternalPackagLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9F294BA493174BD286D870C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9F294BA493174BD286D870C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D2F39E11BAED0A4D1948AF9B /* Pods-TZMExternalPackagLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZMExternalPackagLib_Example.release.xcconfig"; path = "Target Support Files/Pods-TZMExternalPackagLib_Example/Pods-TZMExternalPackagLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E60F5DD36EC73C6E29146B12 /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZMExternalPackagLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-TZMExternalPackagLib_Example/Pods-TZMExternalPackagLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				506364C79F45F503A6FF7128 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */,
 				9A8267751A8D004F78967DB9 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zuomingTang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L664T7WX95;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,6 +500,7 @@
 			baseConfigurationReference = E60F5DD36EC73C6E29146B12 /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L664T7WX95;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TZMExternalPackagLib/TZMExternalPackagLib-Prefix.pch";
 				INFOPLIST_FILE = "TZMExternalPackagLib/TZMExternalPackagLib-Info.plist";
@@ -513,6 +516,7 @@
 			baseConfigurationReference = D2F39E11BAED0A4D1948AF9B /* Pods-TZMExternalPackagLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L664T7WX95;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TZMExternalPackagLib/TZMExternalPackagLib-Prefix.pch";
 				INFOPLIST_FILE = "TZMExternalPackagLib/TZMExternalPackagLib-Info.plist";
