@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZMExternalPackagLib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'TZMExternalPackagLib.'
   
   s.subspec 'iflyMSC' do |si|
@@ -16,6 +16,13 @@ Pod::Spec.new do |s|
       si.libraries = 'z','c++'
       si.vendored_frameworks = 'TZMExternalPackagLib/Classes/iflyMSC/iflyMSC.framework'
       si.requires_arc = false
+  end
+  
+  s.subspec 'TencentOpenApi' do |st|
+      st.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
+      st.libraries           = 'iconv', 'sqlite3', 'stdc++', 'z'
+      st.vendored_frameworks = 'TZMExternalPackagLib/Classes/TencentOpenApi/TencentOpenAPI.framework'
+      st.requires_arc = false
   end
 
 
@@ -27,7 +34,7 @@ TODO: TZMExternalPackagLib
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zuomingTang' => '414933949@qq.com' }
-  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.2' }
+  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.3' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
