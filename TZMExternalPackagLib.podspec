@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZMExternalPackagLib'
-  s.version          = '0.1.4'
+  s.version          = '0.1.4.1'
   s.summary          = 'TZMExternalPackagLib.'
   
   s.subspec 'iflyMSC' do |si|
@@ -27,8 +27,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'KooKongSDK' do |sk|
       sk.libraries            = 'z.1.2.5'
-      sk.source_files         = 'TZMExternalPackagLib/Classes/KooKongSDK/*'
-      sk.public_header_files  = 'TZMExternalPackagLib/Classes/KooKongSDK/*.h'
+      sk.source_files         = 'TZMExternalPackagLib/Classes/KooKongSDK/*.{h}'
       sk.vendored_libraries   = 'TZMExternalPackagLib/Classes/KooKongSDK/*.a'
       sk.pod_target_xcconfig  = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) _7ZIP_ST' }
       sk.requires_arc = false
@@ -42,7 +41,7 @@ TODO: TZMExternalPackagLib
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zuomingTang' => '414933949@qq.com' }
-  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.4' }
+  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.4.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

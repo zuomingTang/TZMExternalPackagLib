@@ -63,8 +63,7 @@
     {
       "name": "KooKongSDK",
       "libraries": "z.1.2.5",
-      "source_files": "TZMExternalPackagLib/Classes/KooKongSDK/*",
-      "public_header_files": "TZMExternalPackagLib/Classes/KooKongSDK/*.h",
+      "source_files": "TZMExternalPackagLib/Classes/KooKongSDK/*.{h}",
       "vendored_libraries": "TZMExternalPackagLib/Classes/KooKongSDK/*.a",
       "pod_target_xcconfig": {
         "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) _7ZIP_ST"

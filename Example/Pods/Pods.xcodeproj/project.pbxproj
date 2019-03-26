@@ -6,35 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		EA6E994EC2395C33963AE56EDFFD1784 /* TZMExternalPackagLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E3643E7C027F1C5F649A6A6694FD9F48 /* Build configuration list for PBXAggregateTarget "TZMExternalPackagLib" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TZMExternalPackagLib;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		05195B7D092E813F1C161496E676CC54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF1282C9B06BA1989664D1389F103B6 /* Foundation.framework */; };
-		1378EB9ADD0868C6A27823ACE995C0E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF1282C9B06BA1989664D1389F103B6 /* Foundation.framework */; };
-		1974C5B0E113ECE6889149DA32775A88 /* TZMExternalPackagLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFD8A4A0B42F51E285811F140A4E203 /* TZMExternalPackagLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34D296A2E9A50501E96E6789AC7A4F69 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B27744A7D39ABFF86C8702206B9352E /* CoreTelephony.framework */; };
-		3DB85A6A4F94F572DDCFA1A323A3BFFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B0BB07DD7B15CD491B5F0001264BED /* QuartzCore.framework */; };
-		52EB484E7C5877C50805104475694824 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D343737D4194884D46710AAA572D69 /* Security.framework */; };
-		574AAD48A128A72C04EFBA809A3CAA47 /* KKACManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9144387FB348A3FB58E8E10DE4E3FFE5 /* KKACManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A255B737854DF478E577F1B64A97866 /* IRConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6131DA949C5C92F3C511CA9D5EA83881 /* IRConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BA47FF6DB1E0B467A719F02E040BED7 /* ReplaceMe.h in Headers */ = {isa = PBXBuildFile; fileRef = 309A868A3346773045944BD41C1BD556 /* ReplaceMe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64E504EFCADE59B6C035EAA2BED304A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD98281036CAF915FABD6C20E73681D /* AVFoundation.framework */; };
-		6A4B728F67D7B2C0FF1AC08E8E0354E6 /* KKSingleMatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6517DD0BD137D4F5E936D42872A9C90D /* KKSingleMatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F065DEBADA26EA988DE1D03C0909D1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94357642794D32BBF3DE77EA8E17CAC5 /* CoreLocation.framework */; };
-		6F36CEFCACE7FC02779329D1CAD126CB /* libKooKongSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 7C3495CFFF5DA2330065588AA426B0B6 /* libKooKongSDK.a */; };
-		8793736BAA75E4EB60D20FF201C38D08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8F7F6CEDB42006A40794B957A1C4F1 /* CoreGraphics.framework */; };
-		9B6CCCC23C250D0909A74017E1AE6495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF1282C9B06BA1989664D1389F103B6 /* Foundation.framework */; };
-		9F1121EEC5F0A3B712B8240530FF43A2 /* TZMExternalPackagLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EAB3ACD96FC1A1A24F13BA3A56B8FE /* TZMExternalPackagLib-dummy.m */; };
-		A6ECB4A59B82F655667616077AAF470A /* Pods-TZMExternalPackagLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D8963FF9955AFB47BAACBEC7F87E33 /* Pods-TZMExternalPackagLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A710957B1C6182A69A85D6988BC15452 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1184BA092EC8448F9C246739C387E9A4 /* SystemConfiguration.framework */; };
-		B34972DA5600A65E2BDB356C9B1EDA3E /* Pods-TZMExternalPackagLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC85E3ACB9EC8A60BF7855AB6E4BB25 /* Pods-TZMExternalPackagLib_Tests-dummy.m */; };
-		B92B358798C1408D1A3F1A755B294373 /* KookongSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4065C5FB426359EE923DC95FEBC211B5 /* KookongSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE5B8725F6FF9BAF583E51A18AA622C6 /* Pods-TZMExternalPackagLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4BDDFCBF8A4A69027E5F63F05AFF5F /* Pods-TZMExternalPackagLib_Example-dummy.m */; };
-		C26A79AFA1DFE6A07BB27E245267FEC0 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2398531520CCB33C93E5632EC90179 /* Contacts.framework */; };
-		CDB9CF66E2F32B98CFA722717ED520FB /* NonACManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1686A64AEB00F5A7301D430533C2DEBA /* NonACManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC84493FC8DB86E9CD0EF21F8A44E93F /* KKZipACManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 144D775FCCC8126B2DB404FC5884FCBF /* KKZipACManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E60FC10415ED4A6054CC68FAE98F0088 /* Pods-TZMExternalPackagLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B134FB8A8AE1C0DFABF6AD6239A82D /* Pods-TZMExternalPackagLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAD3B887D0419F2E2E72F306D1AEB3BC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A253AB68C0CB5A6301C1F5A3490C97E7 /* AddressBook.framework */; };
-		F14985A686A40DFF9832B49F271253C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB63B5517C84B77DDBC04D4C496D6248 /* AudioToolbox.framework */; };
-		FBBD992833FEC5EE619AFC5DDF528766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266C647856A730E2177504724745AABD /* UIKit.framework */; };
+		1378EB9ADD0868C6A27823ACE995C0E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9B6CCCC23C250D0909A74017E1AE6495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A6ECB4A59B82F655667616077AAF470A /* Pods-TZMExternalPackagLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FCA3F5A37E0822829EDFE322685407 /* Pods-TZMExternalPackagLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34972DA5600A65E2BDB356C9B1EDA3E /* Pods-TZMExternalPackagLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FED7D8737D9E9E47529EA5E54FC77 /* Pods-TZMExternalPackagLib_Tests-dummy.m */; };
+		BE5B8725F6FF9BAF583E51A18AA622C6 /* Pods-TZMExternalPackagLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC28805587AC1DD6E7E79673DC98F47 /* Pods-TZMExternalPackagLib_Example-dummy.m */; };
+		E60FC10415ED4A6054CC68FAE98F0088 /* Pods-TZMExternalPackagLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 915340DF3ACA3CB7CE6B93D341E4D742 /* Pods-TZMExternalPackagLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,58 +45,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A0C86B10EF005ADFEBE1A3D5411B885 /* Pods_TZMExternalPackagLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZMExternalPackagLib_Tests.framework; path = "Pods-TZMExternalPackagLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ADA7EF6F54DDBC4814652EB7264AE1C /* Pods-TZMExternalPackagLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Example-Info.plist"; sourceTree = "<group>"; };
-		0F4BDDFCBF8A4A69027E5F63F05AFF5F /* Pods-TZMExternalPackagLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZMExternalPackagLib_Example-dummy.m"; sourceTree = "<group>"; };
-		1184BA092EC8448F9C246739C387E9A4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		144D775FCCC8126B2DB404FC5884FCBF /* KKZipACManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKZipACManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KKZipACManager.h; sourceTree = "<group>"; };
-		1686A64AEB00F5A7301D430533C2DEBA /* NonACManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NonACManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/NonACManager.h; sourceTree = "<group>"; };
-		16B134FB8A8AE1C0DFABF6AD6239A82D /* Pods-TZMExternalPackagLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZMExternalPackagLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		1B27744A7D39ABFF86C8702206B9352E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		1B570B69D2AF22BE08EF8723193E4907 /* Pods_TZMExternalPackagLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZMExternalPackagLib_Example.framework; path = "Pods-TZMExternalPackagLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BD3DC57BA15D61FFD26912F53AA6559 /* Pods-TZMExternalPackagLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZMExternalPackagLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		207A821B3A96267EDA3E189CB6EC50F9 /* TZMExternalPackagLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZMExternalPackagLib-prefix.pch"; sourceTree = "<group>"; };
-		266C647856A730E2177504724745AABD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		280F9048503BE807832E6733663F8E56 /* Pods-TZMExternalPackagLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZMExternalPackagLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2BD0E0124A4D69773A347DA856C08987 /* Pods-TZMExternalPackagLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZMExternalPackagLib_Example.modulemap"; sourceTree = "<group>"; };
-		2DBAAD72F35014D2ABFD2802DED3B186 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = TZMExternalPackagLib/Classes/TencentOpenApi/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		309A868A3346773045944BD41C1BD556 /* ReplaceMe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReplaceMe.h; path = TZMExternalPackagLib/Classes/ReplaceMe.h; sourceTree = "<group>"; };
-		372B070D921A773E014076AD0B573E61 /* Pods-TZMExternalPackagLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZMExternalPackagLib_Tests.modulemap"; sourceTree = "<group>"; };
-		3E9904948E4C96CEFAE7765684A9037B /* TZMExternalPackagLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TZMExternalPackagLib.framework; path = TZMExternalPackagLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4065C5FB426359EE923DC95FEBC211B5 /* KookongSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KookongSDK.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KookongSDK.h; sourceTree = "<group>"; };
-		49595C3C36E896D74F06AE74F0B3FA2D /* Pods-TZMExternalPackagLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4A48188A7A18673359B49A9A3F46548C /* TZMExternalPackagLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TZMExternalPackagLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4BFD8A4A0B42F51E285811F140A4E203 /* TZMExternalPackagLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZMExternalPackagLib-umbrella.h"; sourceTree = "<group>"; };
-		592E1CE2956485EFBCFCF8CB15DEFB8E /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = TZMExternalPackagLib/Classes/iflyMSC/iflyMSC.framework; sourceTree = "<group>"; };
-		6115B5ADB9A37001644C657F33FAD55E /* Pods-TZMExternalPackagLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		6131DA949C5C92F3C511CA9D5EA83881 /* IRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRConstants.h; path = TZMExternalPackagLib/Classes/KooKongSDK/IRConstants.h; sourceTree = "<group>"; };
-		64EAB3ACD96FC1A1A24F13BA3A56B8FE /* TZMExternalPackagLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZMExternalPackagLib-dummy.m"; sourceTree = "<group>"; };
-		6517DD0BD137D4F5E936D42872A9C90D /* KKSingleMatchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKSingleMatchManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KKSingleMatchManager.h; sourceTree = "<group>"; };
-		6AD98281036CAF915FABD6C20E73681D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C2398531520CCB33C93E5632EC90179 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
-		71D343737D4194884D46710AAA572D69 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		72DA6EDC797FEBD8085B2B3252844BA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7C3495CFFF5DA2330065588AA426B0B6 /* libKooKongSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKooKongSDK.a; path = TZMExternalPackagLib/Classes/KooKongSDK/libKooKongSDK.a; sourceTree = "<group>"; };
-		7E8F7F6CEDB42006A40794B957A1C4F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		8EACA4EFB998A546BF6D65DD26CCA4E7 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F556C875972F80F46CB5B12D7CD5CCB /* TZMExternalPackagLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TZMExternalPackagLib-Info.plist"; sourceTree = "<group>"; };
-		9144387FB348A3FB58E8E10DE4E3FFE5 /* KKACManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKACManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KKACManager.h; sourceTree = "<group>"; };
-		94357642794D32BBF3DE77EA8E17CAC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		064BA84FD74BF17B2F515838C8F8CCEF /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = TZMExternalPackagLib/Classes/iflyMSC/iflyMSC.framework; sourceTree = "<group>"; };
+		23469DC163D7206790BBF3341B2DB305 /* NonACManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NonACManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/NonACManager.h; sourceTree = "<group>"; };
+		271994486F899FB28D2F6EECE31935EA /* TZMExternalPackagLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZMExternalPackagLib.xcconfig; sourceTree = "<group>"; };
+		36AC83EB956C7360151B7395D7A22A4C /* Pods_TZMExternalPackagLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZMExternalPackagLib_Example.framework; path = "Pods-TZMExternalPackagLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2BC64B67C35E114CBC5534D13128D5 /* Pods-TZMExternalPackagLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZMExternalPackagLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44FCA3F5A37E0822829EDFE322685407 /* Pods-TZMExternalPackagLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZMExternalPackagLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4B48E0558FB7F00843424711354890FF /* Pods-TZMExternalPackagLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZMExternalPackagLib_Example.modulemap"; sourceTree = "<group>"; };
+		51CED9F6AB6FF7A99048DAC78680EEE5 /* Pods-TZMExternalPackagLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZMExternalPackagLib_Tests.modulemap"; sourceTree = "<group>"; };
+		5627CCD571930859E1E3F238B78D0036 /* KKZipACManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKZipACManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KKZipACManager.h; sourceTree = "<group>"; };
+		5C4E6871DBA288DF2EE26F5B61EA63BF /* Pods_TZMExternalPackagLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZMExternalPackagLib_Tests.framework; path = "Pods-TZMExternalPackagLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6433BCB77814D457336CF489414F5E00 /* ReplaceMe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReplaceMe.h; path = TZMExternalPackagLib/Classes/ReplaceMe.h; sourceTree = "<group>"; };
+		82CC2F34D15D223C4997EC1A13098055 /* Pods-TZMExternalPackagLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		865A129A24282BFF525062EA94E6062F /* IRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRConstants.h; path = TZMExternalPackagLib/Classes/KooKongSDK/IRConstants.h; sourceTree = "<group>"; };
+		87EF36FEA0F8B5FE3B8AEBD90C19A4EB /* Pods-TZMExternalPackagLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		915340DF3ACA3CB7CE6B93D341E4D742 /* Pods-TZMExternalPackagLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZMExternalPackagLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		96346CA63715558E64A78B63B6E8E8F9 /* KKSingleMatchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKSingleMatchManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KKSingleMatchManager.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A253AB68C0CB5A6301C1F5A3490C97E7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
-		AB6A772EDC4ABAFDB2956EE77E7BDBA7 /* Pods-TZMExternalPackagLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ABC85E3ACB9EC8A60BF7855AB6E4BB25 /* Pods-TZMExternalPackagLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZMExternalPackagLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		B4B0BB07DD7B15CD491B5F0001264BED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B90BBF6D54A33F97DD20D0625A943B2B /* TZMExternalPackagLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TZMExternalPackagLib.modulemap; sourceTree = "<group>"; };
-		B926769AA4315699C2114937AF33464B /* TZMExternalPackagLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZMExternalPackagLib.xcconfig; sourceTree = "<group>"; };
-		BA4354C6ADD1DE1C354A2EA4EAA8BB90 /* Pods-TZMExternalPackagLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZMExternalPackagLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF9144B244DF4A6B504851E6DBD7347D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CCEF82BDF8DCFABC90DA888157872AAB /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D0B5EDC696E05E434EA70621297EE794 /* Pods-TZMExternalPackagLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E10174B9CFE2C34CE2171F66829996C1 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EB63B5517C84B77DDBC04D4C496D6248 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		F8D8963FF9955AFB47BAACBEC7F87E33 /* Pods-TZMExternalPackagLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZMExternalPackagLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FAF1282C9B06BA1989664D1389F103B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9FBB1C1A95989588747E87F3ED082E47 /* Pods-TZMExternalPackagLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Example-Info.plist"; sourceTree = "<group>"; };
+		A656B258A5D9F786026F28890A1FE5A4 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC1BEEEB58CCDB4DF186DE9A3A86C036 /* libKooKongSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKooKongSDK.a; path = TZMExternalPackagLib/Classes/KooKongSDK/libKooKongSDK.a; sourceTree = "<group>"; };
+		AC54E831A1BFAB9D9115FC8065024422 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B206B3CB43150798D6D95DA730A3AE96 /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C41FED7D8737D9E9E47529EA5E54FC77 /* Pods-TZMExternalPackagLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZMExternalPackagLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		C72696DC7DB9A38CD4380F9979C648D5 /* TZMExternalPackagLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TZMExternalPackagLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8205E72D5BE35B778EC9275BA444363 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = TZMExternalPackagLib/Classes/TencentOpenApi/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		D853C8ED066F7CEC935DE7F9AA734494 /* Pods-TZMExternalPackagLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZMExternalPackagLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3339BF06183E3284CFF814B1E5BB888 /* Pods-TZMExternalPackagLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6C7B61405BC96DD9F68AA4F4030B534 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZMExternalPackagLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F06FEC6AF1602ACB6056B7C080728289 /* KookongSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KookongSDK.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KookongSDK.h; sourceTree = "<group>"; };
+		F4471ED1A9F0F79FD83BB8B4B40C8795 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F480E8673578F043C72C130EC047F0E4 /* KKACManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKACManager.h; path = TZMExternalPackagLib/Classes/KooKongSDK/KKACManager.h; sourceTree = "<group>"; };
+		F8BA11B916D03CA02D0ACCF919B95C7A /* Pods-TZMExternalPackagLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZMExternalPackagLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAC28805587AC1DD6E7E79673DC98F47 /* Pods-TZMExternalPackagLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZMExternalPackagLib_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,175 +98,152 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9A34C4F3E17585D7BA3E5AEB150D9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAD3B887D0419F2E2E72F306D1AEB3BC /* AddressBook.framework in Frameworks */,
-				F14985A686A40DFF9832B49F271253C2 /* AudioToolbox.framework in Frameworks */,
-				64E504EFCADE59B6C035EAA2BED304A6 /* AVFoundation.framework in Frameworks */,
-				C26A79AFA1DFE6A07BB27E245267FEC0 /* Contacts.framework in Frameworks */,
-				8793736BAA75E4EB60D20FF201C38D08 /* CoreGraphics.framework in Frameworks */,
-				6F065DEBADA26EA988DE1D03C0909D1A /* CoreLocation.framework in Frameworks */,
-				34D296A2E9A50501E96E6789AC7A4F69 /* CoreTelephony.framework in Frameworks */,
-				05195B7D092E813F1C161496E676CC54 /* Foundation.framework in Frameworks */,
-				3DB85A6A4F94F572DDCFA1A323A3BFFB /* QuartzCore.framework in Frameworks */,
-				52EB484E7C5877C50805104475694824 /* Security.framework in Frameworks */,
-				A710957B1C6182A69A85D6988BC15452 /* SystemConfiguration.framework in Frameworks */,
-				FBBD992833FEC5EE619AFC5DDF528766 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05FA13D73138986DEB63BE5B041E9870 /* Products */ = {
+		1484A2A80483342711BAE6B357147E77 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B570B69D2AF22BE08EF8723193E4907 /* Pods_TZMExternalPackagLib_Example.framework */,
-				0A0C86B10EF005ADFEBE1A3D5411B885 /* Pods_TZMExternalPackagLib_Tests.framework */,
-				3E9904948E4C96CEFAE7765684A9037B /* TZMExternalPackagLib.framework */,
+				064BA84FD74BF17B2F515838C8F8CCEF /* iflyMSC.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3D42C89DE2F15F7BC2F2C64F6354833B /* TZMExternalPackagLib */ = {
+		1BB31DD9A3BE16866B72E00675D0C029 /* Pods-TZMExternalPackagLib_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				309A868A3346773045944BD41C1BD556 /* ReplaceMe.h */,
-				3E28A24821190005C01132046290E3A4 /* iflyMSC */,
-				854E2B669F8638FD11F453C75160C68C /* KooKongSDK */,
-				CD4875240BBD39D0DCEAB9187B415948 /* Pod */,
-				FD3023AF36D2C57F05147196C131315E /* Support Files */,
-				C072DE8250680E6B7E559B2DFF789AA3 /* TencentOpenApi */,
-			);
-			name = TZMExternalPackagLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3E28A24821190005C01132046290E3A4 /* iflyMSC */ = {
-			isa = PBXGroup;
-			children = (
-				C79F83DDDCD7CB2903315AF34969734D /* Frameworks */,
-			);
-			name = iflyMSC;
-			sourceTree = "<group>";
-		};
-		6D992F3F2A8DE6FD512F4AFEE95E998D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D42C89DE2F15F7BC2F2C64F6354833B /* TZMExternalPackagLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		717A8BB50671BCF6CD4B10D85BBBED6C /* Pods-TZMExternalPackagLib_Example */ = {
-			isa = PBXGroup;
-			children = (
-				2BD0E0124A4D69773A347DA856C08987 /* Pods-TZMExternalPackagLib_Example.modulemap */,
-				1BD3DC57BA15D61FFD26912F53AA6559 /* Pods-TZMExternalPackagLib_Example-acknowledgements.markdown */,
-				49595C3C36E896D74F06AE74F0B3FA2D /* Pods-TZMExternalPackagLib_Example-acknowledgements.plist */,
-				0F4BDDFCBF8A4A69027E5F63F05AFF5F /* Pods-TZMExternalPackagLib_Example-dummy.m */,
-				280F9048503BE807832E6733663F8E56 /* Pods-TZMExternalPackagLib_Example-frameworks.sh */,
-				0ADA7EF6F54DDBC4814652EB7264AE1C /* Pods-TZMExternalPackagLib_Example-Info.plist */,
-				16B134FB8A8AE1C0DFABF6AD6239A82D /* Pods-TZMExternalPackagLib_Example-umbrella.h */,
-				CCEF82BDF8DCFABC90DA888157872AAB /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */,
-				D0B5EDC696E05E434EA70621297EE794 /* Pods-TZMExternalPackagLib_Example.release.xcconfig */,
-			);
-			name = "Pods-TZMExternalPackagLib_Example";
-			path = "Target Support Files/Pods-TZMExternalPackagLib_Example";
-			sourceTree = "<group>";
-		};
-		7F11DF1CD55055F22383D12EA61F58A2 /* Pods-TZMExternalPackagLib_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				372B070D921A773E014076AD0B573E61 /* Pods-TZMExternalPackagLib_Tests.modulemap */,
-				BA4354C6ADD1DE1C354A2EA4EAA8BB90 /* Pods-TZMExternalPackagLib_Tests-acknowledgements.markdown */,
-				AB6A772EDC4ABAFDB2956EE77E7BDBA7 /* Pods-TZMExternalPackagLib_Tests-acknowledgements.plist */,
-				ABC85E3ACB9EC8A60BF7855AB6E4BB25 /* Pods-TZMExternalPackagLib_Tests-dummy.m */,
-				6115B5ADB9A37001644C657F33FAD55E /* Pods-TZMExternalPackagLib_Tests-Info.plist */,
-				F8D8963FF9955AFB47BAACBEC7F87E33 /* Pods-TZMExternalPackagLib_Tests-umbrella.h */,
-				8EACA4EFB998A546BF6D65DD26CCA4E7 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */,
-				E10174B9CFE2C34CE2171F66829996C1 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */,
+				51CED9F6AB6FF7A99048DAC78680EEE5 /* Pods-TZMExternalPackagLib_Tests.modulemap */,
+				D853C8ED066F7CEC935DE7F9AA734494 /* Pods-TZMExternalPackagLib_Tests-acknowledgements.markdown */,
+				F8BA11B916D03CA02D0ACCF919B95C7A /* Pods-TZMExternalPackagLib_Tests-acknowledgements.plist */,
+				C41FED7D8737D9E9E47529EA5E54FC77 /* Pods-TZMExternalPackagLib_Tests-dummy.m */,
+				87EF36FEA0F8B5FE3B8AEBD90C19A4EB /* Pods-TZMExternalPackagLib_Tests-Info.plist */,
+				44FCA3F5A37E0822829EDFE322685407 /* Pods-TZMExternalPackagLib_Tests-umbrella.h */,
+				E6C7B61405BC96DD9F68AA4F4030B534 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */,
+				A656B258A5D9F786026F28890A1FE5A4 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */,
 			);
 			name = "Pods-TZMExternalPackagLib_Tests";
 			path = "Target Support Files/Pods-TZMExternalPackagLib_Tests";
 			sourceTree = "<group>";
 		};
-		854E2B669F8638FD11F453C75160C68C /* KooKongSDK */ = {
+		1EF74DF0A9DCDC91308F01E44C450A76 /* TZMExternalPackagLib */ = {
 			isa = PBXGroup;
 			children = (
-				6131DA949C5C92F3C511CA9D5EA83881 /* IRConstants.h */,
-				9144387FB348A3FB58E8E10DE4E3FFE5 /* KKACManager.h */,
-				6517DD0BD137D4F5E936D42872A9C90D /* KKSingleMatchManager.h */,
-				144D775FCCC8126B2DB404FC5884FCBF /* KKZipACManager.h */,
-				4065C5FB426359EE923DC95FEBC211B5 /* KookongSDK.h */,
-				7C3495CFFF5DA2330065588AA426B0B6 /* libKooKongSDK.a */,
-				1686A64AEB00F5A7301D430533C2DEBA /* NonACManager.h */,
-				DC8E69E812700592D422405CEC6C790A /* Frameworks */,
+				6433BCB77814D457336CF489414F5E00 /* ReplaceMe.h */,
+				F9C3ADADA0C2620BD233123B98C997BA /* iflyMSC */,
+				3E0116F256E5D523E60A1A8653B6DAF0 /* KooKongSDK */,
+				2D3EDFBE9B59E12F728099D68256E782 /* Pod */,
+				35C96777D4E0E9FA6E9AF4106B034E42 /* Support Files */,
+				A94DB1C06C869FCAFFE4AABAAEB826D2 /* TencentOpenApi */,
+			);
+			name = TZMExternalPackagLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2D3EDFBE9B59E12F728099D68256E782 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC54E831A1BFAB9D9115FC8065024422 /* LICENSE */,
+				F4471ED1A9F0F79FD83BB8B4B40C8795 /* README.md */,
+				C72696DC7DB9A38CD4380F9979C648D5 /* TZMExternalPackagLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		35C96777D4E0E9FA6E9AF4106B034E42 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				271994486F899FB28D2F6EECE31935EA /* TZMExternalPackagLib.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TZMExternalPackagLib";
+			sourceTree = "<group>";
+		};
+		3E0116F256E5D523E60A1A8653B6DAF0 /* KooKongSDK */ = {
+			isa = PBXGroup;
+			children = (
+				865A129A24282BFF525062EA94E6062F /* IRConstants.h */,
+				F480E8673578F043C72C130EC047F0E4 /* KKACManager.h */,
+				96346CA63715558E64A78B63B6E8E8F9 /* KKSingleMatchManager.h */,
+				5627CCD571930859E1E3F238B78D0036 /* KKZipACManager.h */,
+				F06FEC6AF1602ACB6056B7C080728289 /* KookongSDK.h */,
+				23469DC163D7206790BBF3341B2DB305 /* NonACManager.h */,
+				5C332052987CC132B9499DE296EC8F9C /* Frameworks */,
 			);
 			name = KooKongSDK;
 			sourceTree = "<group>";
 		};
-		9A5580A74152C7903A5141F30C5AC160 /* iOS */ = {
+		4A9D9C0CC3F167E27A4E7679B50C12D7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A253AB68C0CB5A6301C1F5A3490C97E7 /* AddressBook.framework */,
-				EB63B5517C84B77DDBC04D4C496D6248 /* AudioToolbox.framework */,
-				6AD98281036CAF915FABD6C20E73681D /* AVFoundation.framework */,
-				6C2398531520CCB33C93E5632EC90179 /* Contacts.framework */,
-				7E8F7F6CEDB42006A40794B957A1C4F1 /* CoreGraphics.framework */,
-				94357642794D32BBF3DE77EA8E17CAC5 /* CoreLocation.framework */,
-				1B27744A7D39ABFF86C8702206B9352E /* CoreTelephony.framework */,
-				FAF1282C9B06BA1989664D1389F103B6 /* Foundation.framework */,
-				B4B0BB07DD7B15CD491B5F0001264BED /* QuartzCore.framework */,
-				71D343737D4194884D46710AAA572D69 /* Security.framework */,
-				1184BA092EC8448F9C246739C387E9A4 /* SystemConfiguration.framework */,
-				266C647856A730E2177504724745AABD /* UIKit.framework */,
+				9642743CEC754B5FF918A01FEA0B3E48 /* Pods-TZMExternalPackagLib_Example */,
+				1BB31DD9A3BE16866B72E00675D0C029 /* Pods-TZMExternalPackagLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C332052987CC132B9499DE296EC8F9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1BEEEB58CCDB4DF186DE9A3A86C036 /* libKooKongSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DA0AC2FF626C58108FB85440ED2E7EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8205E72D5BE35B778EC9275BA444363 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D992F3F2A8DE6FD512F4AFEE95E998D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF74DF0A9DCDC91308F01E44C450A76 /* TZMExternalPackagLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9642743CEC754B5FF918A01FEA0B3E48 /* Pods-TZMExternalPackagLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E0558FB7F00843424711354890FF /* Pods-TZMExternalPackagLib_Example.modulemap */,
+				3B2BC64B67C35E114CBC5534D13128D5 /* Pods-TZMExternalPackagLib_Example-acknowledgements.markdown */,
+				E3339BF06183E3284CFF814B1E5BB888 /* Pods-TZMExternalPackagLib_Example-acknowledgements.plist */,
+				FAC28805587AC1DD6E7E79673DC98F47 /* Pods-TZMExternalPackagLib_Example-dummy.m */,
+				9FBB1C1A95989588747E87F3ED082E47 /* Pods-TZMExternalPackagLib_Example-Info.plist */,
+				915340DF3ACA3CB7CE6B93D341E4D742 /* Pods-TZMExternalPackagLib_Example-umbrella.h */,
+				B206B3CB43150798D6D95DA730A3AE96 /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */,
+				82CC2F34D15D223C4997EC1A13098055 /* Pods-TZMExternalPackagLib_Example.release.xcconfig */,
+			);
+			name = "Pods-TZMExternalPackagLib_Example";
+			path = "Target Support Files/Pods-TZMExternalPackagLib_Example";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9FE838D03A66BDF2733A527DFC6BCCA2 /* Frameworks */ = {
+		A94DB1C06C869FCAFFE4AABAAEB826D2 /* TencentOpenApi */ = {
 			isa = PBXGroup;
 			children = (
-				2DBAAD72F35014D2ABFD2802DED3B186 /* TencentOpenAPI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AF05E25BC5214EAFD8E7781B8806C564 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9A5580A74152C7903A5141F30C5AC160 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C072DE8250680E6B7E559B2DFF789AA3 /* TencentOpenApi */ = {
-			isa = PBXGroup;
-			children = (
-				9FE838D03A66BDF2733A527DFC6BCCA2 /* Frameworks */,
+				5DA0AC2FF626C58108FB85440ED2E7EB /* Frameworks */,
 			);
 			name = TencentOpenApi;
 			sourceTree = "<group>";
 		};
-		C79F83DDDCD7CB2903315AF34969734D /* Frameworks */ = {
+		B32494C0BC25B0F2D0AD116F0251C014 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				592E1CE2956485EFBCFCF8CB15DEFB8E /* iflyMSC.framework */,
+				36AC83EB956C7360151B7395D7A22A4C /* Pods_TZMExternalPackagLib_Example.framework */,
+				5C4E6871DBA288DF2EE26F5B61EA63BF /* Pods_TZMExternalPackagLib_Tests.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CD4875240BBD39D0DCEAB9187B415948 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				72DA6EDC797FEBD8085B2B3252844BA4 /* LICENSE */,
-				BF9144B244DF4A6B504851E6DBD7347D /* README.md */,
-				4A48188A7A18673359B49A9A3F46548C /* TZMExternalPackagLib.podspec */,
-			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -302,40 +251,26 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6D992F3F2A8DE6FD512F4AFEE95E998D /* Development Pods */,
-				AF05E25BC5214EAFD8E7781B8806C564 /* Frameworks */,
-				05FA13D73138986DEB63BE5B041E9870 /* Products */,
-				F0B2505031428A17E76A7330D8F41C95 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B32494C0BC25B0F2D0AD116F0251C014 /* Products */,
+				4A9D9C0CC3F167E27A4E7679B50C12D7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DC8E69E812700592D422405CEC6C790A /* Frameworks */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0B2505031428A17E76A7330D8F41C95 /* Targets Support Files */ = {
+		F9C3ADADA0C2620BD233123B98C997BA /* iflyMSC */ = {
 			isa = PBXGroup;
 			children = (
-				717A8BB50671BCF6CD4B10D85BBBED6C /* Pods-TZMExternalPackagLib_Example */,
-				7F11DF1CD55055F22383D12EA61F58A2 /* Pods-TZMExternalPackagLib_Tests */,
+				1484A2A80483342711BAE6B357147E77 /* Frameworks */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FD3023AF36D2C57F05147196C131315E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B90BBF6D54A33F97DD20D0625A943B2B /* TZMExternalPackagLib.modulemap */,
-				B926769AA4315699C2114937AF33464B /* TZMExternalPackagLib.xcconfig */,
-				64EAB3ACD96FC1A1A24F13BA3A56B8FE /* TZMExternalPackagLib-dummy.m */,
-				8F556C875972F80F46CB5B12D7CD5CCB /* TZMExternalPackagLib-Info.plist */,
-				207A821B3A96267EDA3E189CB6EC50F9 /* TZMExternalPackagLib-prefix.pch */,
-				4BFD8A4A0B42F51E285811F140A4E203 /* TZMExternalPackagLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TZMExternalPackagLib";
+			name = iflyMSC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,21 +289,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6ECB4A59B82F655667616077AAF470A /* Pods-TZMExternalPackagLib_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B386EF7B8C36F058AA5E33EB83C27DC6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A255B737854DF478E577F1B64A97866 /* IRConstants.h in Headers */,
-				574AAD48A128A72C04EFBA809A3CAA47 /* KKACManager.h in Headers */,
-				6A4B728F67D7B2C0FF1AC08E8E0354E6 /* KKSingleMatchManager.h in Headers */,
-				DC84493FC8DB86E9CD0EF21F8A44E93F /* KKZipACManager.h in Headers */,
-				B92B358798C1408D1A3F1A755B294373 /* KookongSDK.h in Headers */,
-				CDB9CF66E2F32B98CFA722717ED520FB /* NonACManager.h in Headers */,
-				5BA47FF6DB1E0B467A719F02E040BED7 /* ReplaceMe.h in Headers */,
-				1974C5B0E113ECE6889149DA32775A88 /* TZMExternalPackagLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +311,7 @@
 			);
 			name = "Pods-TZMExternalPackagLib_Tests";
 			productName = "Pods-TZMExternalPackagLib_Tests";
-			productReference = 0A0C86B10EF005ADFEBE1A3D5411B885 /* Pods_TZMExternalPackagLib_Tests.framework */;
+			productReference = 5C4E6871DBA288DF2EE26F5B61EA63BF /* Pods_TZMExternalPackagLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA3BDF8CF3D8814FFE94D3CC51A341DF /* Pods-TZMExternalPackagLib_Example */ = {
@@ -410,25 +330,7 @@
 			);
 			name = "Pods-TZMExternalPackagLib_Example";
 			productName = "Pods-TZMExternalPackagLib_Example";
-			productReference = 1B570B69D2AF22BE08EF8723193E4907 /* Pods_TZMExternalPackagLib_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EA6E994EC2395C33963AE56EDFFD1784 /* TZMExternalPackagLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C68195D47A797AC87EF213F44A97670 /* Build configuration list for PBXNativeTarget "TZMExternalPackagLib" */;
-			buildPhases = (
-				B386EF7B8C36F058AA5E33EB83C27DC6 /* Headers */,
-				CDBDE4E924693BE90039F00356A777AE /* Sources */,
-				4E9A34C4F3E17585D7BA3E5AEB150D9C /* Frameworks */,
-				1082FC512F12317E2212BCEEEA74D451 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TZMExternalPackagLib;
-			productName = TZMExternalPackagLib;
-			productReference = 3E9904948E4C96CEFAE7765684A9037B /* TZMExternalPackagLib.framework */;
+			productReference = 36AC83EB956C7360151B7395D7A22A4C /* Pods_TZMExternalPackagLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -448,7 +350,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 05FA13D73138986DEB63BE5B041E9870 /* Products */;
+			productRefGroup = B32494C0BC25B0F2D0AD116F0251C014 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -460,13 +362,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1082FC512F12317E2212BCEEEA74D451 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3A53866F3F3CE958A2015B0111A5BD6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,15 +392,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B34972DA5600A65E2BDB356C9B1EDA3E /* Pods-TZMExternalPackagLib_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDBDE4E924693BE90039F00356A777AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F36CEFCACE7FC02779329D1CAD126CB /* libKooKongSDK.a in Sources */,
-				9F1121EEC5F0A3B712B8240530FF43A2 /* TZMExternalPackagLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,39 +477,9 @@
 			};
 			name = Debug;
 		};
-		2290E49D0DC413FE2DFFD79D6AFD4E4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B926769AA4315699C2114937AF33464B /* TZMExternalPackagLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TZMExternalPackagLib/TZMExternalPackagLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TZMExternalPackagLib/TZMExternalPackagLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TZMExternalPackagLib/TZMExternalPackagLib.modulemap";
-				PRODUCT_MODULE_NAME = TZMExternalPackagLib;
-				PRODUCT_NAME = TZMExternalPackagLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		302A2072139195F49386E26D83D00986 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E10174B9CFE2C34CE2171F66829996C1 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */;
+			baseConfigurationReference = A656B258A5D9F786026F28890A1FE5A4 /* Pods-TZMExternalPackagLib_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -657,7 +513,7 @@
 		};
 		46D843A1E4E4DBC1F11D26ABBB8F6EFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EACA4EFB998A546BF6D65DD26CCA4E7 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = E6C7B61405BC96DD9F68AA4F4030B534 /* Pods-TZMExternalPackagLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -688,40 +544,9 @@
 			};
 			name = Debug;
 		};
-		5CB454EF03B0B42A726A1852C9D7F797 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B926769AA4315699C2114937AF33464B /* TZMExternalPackagLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TZMExternalPackagLib/TZMExternalPackagLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TZMExternalPackagLib/TZMExternalPackagLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TZMExternalPackagLib/TZMExternalPackagLib.modulemap";
-				PRODUCT_MODULE_NAME = TZMExternalPackagLib;
-				PRODUCT_NAME = TZMExternalPackagLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7C09E628810AD2D05224D8B51ABAB1D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0B5EDC696E05E434EA70621297EE794 /* Pods-TZMExternalPackagLib_Example.release.xcconfig */;
+			baseConfigurationReference = 82CC2F34D15D223C4997EC1A13098055 /* Pods-TZMExternalPackagLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -752,6 +577,19 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8CE0B3FD55273175B0E8142E5D48950E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271994486F899FB28D2F6EECE31935EA /* TZMExternalPackagLib.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -813,9 +651,23 @@
 			};
 			name = Release;
 		};
+		AE5BA3909B74DC6B1CEF06F15D391AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271994486F899FB28D2F6EECE31935EA /* TZMExternalPackagLib.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F43EDA5DA5D07904F10992E46C336765 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCEF82BDF8DCFABC90DA888157872AAB /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */;
+			baseConfigurationReference = B206B3CB43150798D6D95DA730A3AE96 /* Pods-TZMExternalPackagLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -858,15 +710,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C68195D47A797AC87EF213F44A97670 /* Build configuration list for PBXNativeTarget "TZMExternalPackagLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2290E49D0DC413FE2DFFD79D6AFD4E4C /* Debug */,
-				5CB454EF03B0B42A726A1852C9D7F797 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -881,6 +724,15 @@
 			buildConfigurations = (
 				F43EDA5DA5D07904F10992E46C336765 /* Debug */,
 				7C09E628810AD2D05224D8B51ABAB1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3643E7C027F1C5F649A6A6694FD9F48 /* Build configuration list for PBXAggregateTarget "TZMExternalPackagLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE0B3FD55273175B0E8142E5D48950E /* Debug */,
+				AE5BA3909B74DC6B1CEF06F15D391AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
