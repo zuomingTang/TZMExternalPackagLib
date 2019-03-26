@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "ReplaceMe.h"
+#import "IRConstants.h"
+#import "KKACManager.h"
+#import "KKSingleMatchManager.h"
+#import "KKZipACManager.h"
+#import "KookongSDK.h"
+#import "NonACManager.h"
 
 FOUNDATION_EXPORT double TZMExternalPackagLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char TZMExternalPackagLibVersionString[];

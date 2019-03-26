@@ -7,12 +7,16 @@
 //
 
 #import "TZMAppDelegate.h"
+#import "KookongSDK.h"
+#import "KKZipACManager.h"
 
 @implementation TZMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[KookongSDK shareKooKongSDK]checkUserAuthority:@"" deviceId:@""];
+    [[KKZipACManager alloc]initWithRemoteId:@"" irData:nil modeStateValue:nil];
     return YES;
 }
 
