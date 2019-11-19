@@ -34,9 +34,9 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'EnjoyHomeOpenSDK' do |se|
-      sk.source_files         = 'TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.{h}'
-      sk.vendored_libraries   = 'TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.a'
-      sk.requires_arc = false
+      se.source_files         = 'TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.{h}'
+      se.vendored_libraries   = 'TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.a'
+      se.requires_arc = false
   end
 
   s.description      = <<-DESC
