@@ -32,6 +32,12 @@ Pod::Spec.new do |s|
       sk.pod_target_xcconfig  = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) _7ZIP_ST' }
       sk.requires_arc = false
   end
+  
+  s.subspec 'EnjoyHomeOpenSDK' do |se|
+      sk.source_files         = 'TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.{h}'
+      sk.vendored_libraries   = 'TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.a'
+      sk.requires_arc = false
+  end
 
   s.description      = <<-DESC
 TODO: TZMExternalPackagLib
