@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^authSuccess)(NSString *authCode);
-typedef void (^authFail)(NSError *error);
+typedef void (^GHomeAuthSuccess)(NSString *authCode);
+typedef void (^GHomeAuthFail)(NSError *error);
 
 /**
  需要被授权获取用户信息权限等级
@@ -38,8 +38,8 @@ enum  EHAuthErrCode {
 
 + (void)sendAuthLoginReqWithAppId:(NSString *)appId
                 authFetchInfoMode:(EHAuthFetchInfoMode)authMode
-                          Success:(authSuccess)success
-                             Fail:(authFail)fail;
+                          Success:(GHomeAuthSuccess)success
+                             Fail:(GHomeAuthFail)fail;
 
 + (void)handleOpenURL:(NSURL *)url;
 @end
