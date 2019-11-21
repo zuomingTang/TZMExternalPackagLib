@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^authSuccess)(NSString *authCode);
+typedef void (^authFail)(NSError *error);
+
 /**
  需要被授权获取用户信息权限等级
  */
@@ -29,18 +32,14 @@ enum  EHAuthErrCode {
     EHAuthErrCodeUnsupport  = -5,   /**< 享家不支持    */
 };
 
-@protocol EnjoyHomeAuthAPIDelegate<NSObject>
-@optional
-- (void)onAuthRespErrorCode:(NSString *_Nullable)errCode authCode:(NSString *_Nullable)authCode;    //成功登录
-@end
-
 @interface EnjoyHomeOpenSDK : NSObject
-
-@property(nonatomic, weak) id<EnjoyHomeAuthAPIDelegate> delegate;
 
 + (BOOL)isAppInstalled;
 
-+ (void)sendAuthLoginReqWithAppId:(NSString *)appId                 authFetchInfoMode:(EHAuthFetchInfoMode)authMode;
++ (void)sendAuthLoginReqWithAppId:(NSString *)appId
+                authFetchInfoMode:(EHAuthFetchInfoMode)authMode
+                          Success:(authSuccess)success
+                             Fail:(authFail)fail;
 
-+ (void)handleOpenURL:(NSURL *)url delegate:(nullable id<EnjoyHomeAuthAPIDelegate>)delegate;
++ (void)handleOpenURL:(NSURL *)url;
 @end
