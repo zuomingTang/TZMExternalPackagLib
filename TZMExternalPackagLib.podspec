@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZMExternalPackagLib'
-  s.version          = '0.1.6.2'
+  s.version          = '0.1.6.3'
   s.summary          = 'TZMExternalPackagLib.'
   
   s.subspec 'iflyMSC' do |si|
@@ -38,6 +38,17 @@ Pod::Spec.new do |s|
       se.vendored_libraries   = 'TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.a'
       se.requires_arc = false
   end
+  
+  s.subspec 'JdPlaySdk' do |sj|
+      sj.frameworks = 'SystemConfiguration', 'AVFoundation', 'Foundation', 'CoreTelephony', 'AudioToolbox', 'UIKit', 'CoreLocation', 'QuartzCore', 'CoreGraphics', 'Contacts', 'AddressBook'
+      sj.libraries = 'stdc++','z.1.2.5'
+      sj.vendored_frameworks = 'TZMExternalPackagLib/Classes/JdPlaySdk/JdPlaySdk.framework'
+      sj.dependency 'Reachability', '3.2'
+      sj.dependency 'MJRefresh', '3.2.2'
+      sj.dependency 'MJExtension', '3.2.1'
+      sj.dependency 'SDWebImage', '4.2.2'
+      sj.requires_arc = false
+  end
 
   s.description      = <<-DESC
 TODO: TZMExternalPackagLib
@@ -47,7 +58,7 @@ TODO: TZMExternalPackagLib
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zuomingTang' => '414933949@qq.com' }
-  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.6.2' }
+  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.6.3' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

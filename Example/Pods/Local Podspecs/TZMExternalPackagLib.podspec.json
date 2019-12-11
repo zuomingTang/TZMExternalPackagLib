@@ -1,6 +1,6 @@
 {
   "name": "TZMExternalPackagLib",
-  "version": "0.1.4",
+  "version": "0.1.6.2",
   "summary": "TZMExternalPackagLib.",
   "description": "TODO: TZMExternalPackagLib",
   "homepage": "https://github.com/zuomingTang/TZMExternalPackagLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zuomingTang/TZMExternalPackagLib.git",
-    "tag": "0.1.4"
+    "tag": "0.1.6.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -67,6 +67,48 @@
       "vendored_libraries": "TZMExternalPackagLib/Classes/KooKongSDK/*.a",
       "pod_target_xcconfig": {
         "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) _7ZIP_ST"
+      },
+      "requires_arc": false
+    },
+    {
+      "name": "EnjoyHomeOpenSDK",
+      "source_files": "TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.{h}",
+      "vendored_libraries": "TZMExternalPackagLib/Classes/EnjoyHomeOpenSDK/*.a",
+      "requires_arc": false
+    },
+    {
+      "name": "JdPlaySdk",
+      "frameworks": [
+        "SystemConfiguration",
+        "AVFoundation",
+        "Foundation",
+        "CoreTelephony",
+        "AudioToolbox",
+        "UIKit",
+        "CoreLocation",
+        "QuartzCore",
+        "CoreGraphics",
+        "Contacts",
+        "AddressBook"
+      ],
+      "libraries": [
+        "stdc++",
+        "z.1.2.5"
+      ],
+      "vendored_frameworks": "TZMExternalPackagLib/Classes/JdPlaySdk/JdPlaySdk.framework",
+      "dependencies": {
+        "Reachability": [
+          "3.2"
+        ],
+        "MJRefresh": [
+          "3.2.2"
+        ],
+        "MJExtension": [
+          "3.2.1"
+        ],
+        "SDWebImage": [
+          "4.2.2"
+        ]
       },
       "requires_arc": false
     }
