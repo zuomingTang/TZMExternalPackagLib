@@ -1,6 +1,6 @@
 {
   "name": "TZMExternalPackagLib",
-  "version": "0.1.6.2",
+  "version": "0.1.6.5",
   "summary": "TZMExternalPackagLib.",
   "description": "TODO: TZMExternalPackagLib",
   "homepage": "https://github.com/zuomingTang/TZMExternalPackagLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zuomingTang/TZMExternalPackagLib.git",
-    "tag": "0.1.6.2"
+    "tag": "0.1.6.5"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,6 +21,11 @@
   "source_files": "TZMExternalPackagLib/Classes/*",
   "public_header_files": "TZMExternalPackagLib/Classes/*.h",
   "subspecs": [
+    {
+      "name": "EZOpenSDK",
+      "requires_arc": true,
+      "vendored_frameworks": "TZMExternalPackagLib/Classes/EZOpenSDK/EZOpenSDKFramework.framework"
+    },
     {
       "name": "iflyMSC",
       "frameworks": [

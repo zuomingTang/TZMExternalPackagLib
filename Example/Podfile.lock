@@ -5,27 +5,29 @@ PODS:
   - SDWebImage (4.2.2):
     - SDWebImage/Core (= 4.2.2)
   - SDWebImage/Core (4.2.2)
-  - TZMExternalPackagLib (0.1.6.2):
-    - TZMExternalPackagLib/EnjoyHomeOpenSDK (= 0.1.6.2)
-    - TZMExternalPackagLib/iflyMSC (= 0.1.6.2)
-    - TZMExternalPackagLib/JdPlaySdk (= 0.1.6.2)
-    - TZMExternalPackagLib/KooKongSDK (= 0.1.6.2)
-    - TZMExternalPackagLib/TencentOpenApi (= 0.1.6.2)
-  - TZMExternalPackagLib/EnjoyHomeOpenSDK (0.1.6.2)
-  - TZMExternalPackagLib/iflyMSC (0.1.6.2)
-  - TZMExternalPackagLib/JdPlaySdk (0.1.6.2):
+  - TZMExternalPackagLib (0.1.6.5):
+    - TZMExternalPackagLib/EnjoyHomeOpenSDK (= 0.1.6.5)
+    - TZMExternalPackagLib/EZOpenSDK (= 0.1.6.5)
+    - TZMExternalPackagLib/iflyMSC (= 0.1.6.5)
+    - TZMExternalPackagLib/JdPlaySdk (= 0.1.6.5)
+    - TZMExternalPackagLib/KooKongSDK (= 0.1.6.5)
+    - TZMExternalPackagLib/TencentOpenApi (= 0.1.6.5)
+  - TZMExternalPackagLib/EnjoyHomeOpenSDK (0.1.6.5)
+  - TZMExternalPackagLib/EZOpenSDK (0.1.6.5)
+  - TZMExternalPackagLib/iflyMSC (0.1.6.5)
+  - TZMExternalPackagLib/JdPlaySdk (0.1.6.5):
     - MJExtension (= 3.2.1)
     - MJRefresh (= 3.2.2)
     - Reachability (= 3.2)
     - SDWebImage (= 4.2.2)
-  - TZMExternalPackagLib/KooKongSDK (0.1.6.2)
-  - TZMExternalPackagLib/TencentOpenApi (0.1.6.2)
+  - TZMExternalPackagLib/KooKongSDK (0.1.6.5)
+  - TZMExternalPackagLib/TencentOpenApi (0.1.6.5)
 
 DEPENDENCIES:
   - TZMExternalPackagLib (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - MJExtension
     - MJRefresh
     - Reachability
@@ -40,8 +42,8 @@ SPEC CHECKSUMS:
   MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
-  TZMExternalPackagLib: 5f735bb9f564b11de6a469e293301dca63adf0c0
+  TZMExternalPackagLib: ba7eb7d04b37cada1a7d27f71b39ca9991723264
 
 PODFILE CHECKSUM: 9c61f9395841f6747f0a44a21a04c24bf0a258b8
 
-COCOAPODS: 1.7.0.beta.3
+COCOAPODS: 1.8.4

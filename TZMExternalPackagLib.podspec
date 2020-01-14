@@ -8,8 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZMExternalPackagLib'
-  s.version          = '0.1.6.4'
+  s.version          = '0.1.6.5'
   s.summary          = 'TZMExternalPackagLib.'
+  
+  s.subspec 'EZOpenSDK' do |sez|
+      sez.requires_arc = true
+      sez.vendored_frameworks = 'TZMExternalPackagLib/Classes/EZOpenSDK/EZOpenSDKFramework.framework'
+  end
   
   s.subspec 'iflyMSC' do |si|
       si.frameworks = 'AVFoundation', 'SystemConfiguration', 'Foundation', 'CoreTelephony', 'AudioToolbox', 'UIKit', 'CoreLocation', 'QuartzCore', 'CoreGraphics', 'Contacts', 'AddressBook'
@@ -58,7 +63,7 @@ TODO: TZMExternalPackagLib
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zuomingTang' => '414933949@qq.com' }
-  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.6.4' }
+  s.source           = { :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.6.5' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
