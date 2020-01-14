@@ -1,6 +1,0 @@
-framework module TZMExternalPackagLib {
-  umbrella header "TZMExternalPackagLib-umbrella.h"
-
-  export *
-  module * { export * }
-}
