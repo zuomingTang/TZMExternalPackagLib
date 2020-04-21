@@ -111,7 +111,8 @@ typedef NS_ENUM(NSInteger, EZPlaybackRate) {
  *  @return EZPlayer对象
  */
 + (instancetype)createPlayerWithDeviceSerial:(NSString *)deviceSerial cameraNo:(NSInteger)cameraNo;
-
+//for 国标
++ (instancetype)createPlayerWithDeviceSerial:(NSString *)deviceSerial strCameraNo:(NSString *)strCameraNo;
 /**
  *  根据url构造EZPlayer对象 （主要用来处理视频广场的播放）
  *
@@ -152,6 +153,20 @@ typedef NS_ENUM(NSInteger, EZPlaybackRate) {
  @return 1：软解 2：硬解 0：出错
  */
 - (int) getHDPriorityStatus;
+
+/**
+ *  设置设备归属业务来源，需要在预览回放前调用  UIKit使用
+ *
+ *  @param bizType 类型       国标为 bizType='GB28181'
+ */
+-(void)setBizType:(NSString *)bizType;
+
+/**
+ *  平台id UIKit使用
+ *
+ *  @param platformId 类型
+*/
+-(void)setPlatformId:(NSString *)platformId;
 
 /**
  *  设置播放器的view
